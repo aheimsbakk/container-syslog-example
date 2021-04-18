@@ -1,4 +1,4 @@
-FROM docker.io/ubuntu:18.04
+FROM aheimsbakk/base-debian:latest
 
 RUN apt-get update; \
     apt-get install -y \
